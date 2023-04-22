@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stages.laboratorinis3.Stage1Controller">
+   <children>
+      <TextField fx:id="lastNameField" layoutX="226.0" layoutY="175.0" promptText="Enter your last name" />
+      <TextField fx:id="firstNameField" layoutX="226.0" layoutY="141.0" promptText="Enter your first name" />
+      <TextField fx:id="idField" layoutX="226.0" layoutY="209.0" promptText="Enter your id" />
+      <Button fx:id="login1Button" layoutX="200.0" layoutY="246.0" mnemonicParsing="false" onAction="#login1" text="Login 1" />
+      <Button fx:id="login2Button" layoutX="274.0" layoutY="246.0" mnemonicParsing="false" onAction="#login2" text="Login 2" />
+      <Button fx:id="login3Button" layoutX="349.0" layoutY="246.0" mnemonicParsing="false" onAction="#login3" text="Login 3" />
+   </children>
+</AnchorPane>
